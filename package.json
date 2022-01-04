@@ -1,6 +1,6 @@
 {
 	"name": "optimizelua",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Optimize Lua using gamesensical.github.io's Lua Optimizer",
 	"source": "src/index.ts",
 	"main": "dist/main.js",
