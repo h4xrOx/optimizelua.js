@@ -6,6 +6,30 @@ gamesensical.github.io's optimizer, extracted into a node library
 
 modified to be in ts and stuff like that
 
+### usage
+
+#### install
+
+```bash
+pnpm i optimizelua
+```
+
+#### import
+
+```ts
+const { optimize } = require('optimizelua');
+// or
+import optimize from 'optimizelua';
+// or
+import { optimize } from 'optimizelua';
+```
+
+#### use
+
+```ts
+console.log(optimize("print('Hello World!')"));
+```
+
 ### credits
 
 initial ts conversion: yieldingexploiter<br/>
