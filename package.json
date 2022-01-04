@@ -9,7 +9,7 @@
 	"scripts": {
 		"watch": "parcel watch",
 		"build": "parcel build",
-		"test": "pnpm build && node test.js"
+		"test": "node test.js"
 	},
 	"repository": {
 		"type": "git",
