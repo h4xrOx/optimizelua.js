@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"rootDir": "src",
+		"outDir": "dist",
+		"allowJs": true,
+		"checkJs": false,
+		"lib": ["ES2016", "ES2017", "ES2018", "DOM"]
+	}
+}
