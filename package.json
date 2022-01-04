@@ -13,14 +13,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/YieldingExploiter/optimizelua.js.git"
+		"url": "git+https://github.com/MokiyCodes/optimizelua.js.git"
 	},
-	"author": "YieldingExploiter",
+	"author": "YieldingCoder & MokiyCodes",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/YieldingExploiter/optimizelua.js/issues"
+		"url": "https://github.com/MokiyCodes/optimizelua.js/issues"
 	},
-	"homepage": "https://github.com/YieldingExploiter/optimizelua.js#readme",
+	"homepage": "https://github.com/MokiyCodes/optimizelua.js#readme",
 	"dependencies": {},
 	"devDependencies": {
 		"@types/node": "^17.0.8",
