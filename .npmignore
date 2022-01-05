@@ -1,3 +1,8 @@
 node_modules
 src
 .parcel-cache
+!dist
+!dist/*
+!dist/module.*
+!dist/types.*
+!dist/main.*
