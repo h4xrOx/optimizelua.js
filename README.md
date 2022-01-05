@@ -11,17 +11,17 @@ modified to be in ts and stuff like that
 #### install
 
 ```bash
-pnpm i optimizelua
+pnpm i optimize.lua
 ```
 
 #### import
 
 ```ts
-const { optimize } = require('optimizelua');
+const { optimize } = require('optimize.lua');
 // or
-import optimize from 'optimizelua';
+import optimize from 'optimize.lua';
 // or
-import { optimize } from 'optimizelua';
+import { optimize } from 'optimize.lua';
 ```
 
 #### use
