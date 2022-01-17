@@ -25,7 +25,7 @@
 	"devDependencies": {
 		"@types/node": "17.0.8",
 		"@parcel/compressor-brotli": "2.0.1",
-		"@parcel/compressor-gzip": "2.0.1",
+		"@parcel/compressor-gzip": "2.2.1",
 		"@parcel/config-default": "2.0.1",
 		"@parcel/core": "2.0.1",
 		"@parcel/packager-ts": "2.0.1",
