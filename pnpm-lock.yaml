@@ -9,7 +9,7 @@ specifiers:
   '@parcel/transformer-typescript-types': 2.4.0
   '@types/node': 17.0.8
   parcel: 2.4.0
-  typescript: 4.6.2
+  typescript: 4.6.3
 
 devDependencies:
   '@parcel/compressor-brotli': 2.4.0_@parcel+core@2.4.0
@@ -17,10 +17,10 @@ devDependencies:
   '@parcel/config-default': 2.4.0_@parcel+core@2.4.0
   '@parcel/core': 2.4.0
   '@parcel/packager-ts': 2.4.0_@parcel+core@2.4.0
-  '@parcel/transformer-typescript-types': 2.4.0_f2c569d586e4aa4805af4d2692401b80
+  '@parcel/transformer-typescript-types': 2.4.0_1649031c9b2f21c5042e3b4f97d5a497
   '@types/node': 17.0.8
   parcel: 2.4.0
-  typescript: 4.6.2
+  typescript: 4.6.3
 
 packages:
 
@@ -760,7 +760,7 @@ packages:
       - '@parcel/core'
     dev: true
 
-  /@parcel/transformer-typescript-types/2.4.0_f2c569d586e4aa4805af4d2692401b80:
+  /@parcel/transformer-typescript-types/2.4.0_1649031c9b2f21c5042e3b4f97d5a497:
     resolution: {integrity: sha512-jG3XURCdKYwgmThPzs8dGcN1isVXI3mNAdRb/5qvQNcRJF/2yp4vJvjgCsyLcd2b+1mnGwZpOFI6b2KVKQ4yJw==}
     engines: {node: '>= 12.0.0', parcel: ^2.4.0}
     peerDependencies:
@@ -769,21 +769,21 @@ packages:
       '@parcel/diagnostic': 2.4.0
       '@parcel/plugin': 2.4.0_@parcel+core@2.4.0
       '@parcel/source-map': 2.0.2
-      '@parcel/ts-utils': 2.4.0_typescript@4.6.2
+      '@parcel/ts-utils': 2.4.0_typescript@4.6.3
       nullthrows: 1.1.1
-      typescript: 4.6.2
+      typescript: 4.6.3
     transitivePeerDependencies:
       - '@parcel/core'
     dev: true
 
-  /@parcel/ts-utils/2.4.0_typescript@4.6.2:
+  /@parcel/ts-utils/2.4.0_typescript@4.6.3:
     resolution: {integrity: sha512-lHn2udRqxF3fXtDI5F+UipgIrIp1EtHs85dzCXQpOLOu/17pJcqCOkDYDJiTVMcmSSB3/Blz+6oChnxf7FUptA==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
       typescript: '>=3.0.0'
     dependencies:
       nullthrows: 1.1.1
-      typescript: 4.6.2
+      typescript: 4.6.3
     dev: true
 
   /@parcel/types/2.4.0:
@@ -1444,8 +1444,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typescript/4.6.2:
-    resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
+  /typescript/4.6.3:
+    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
