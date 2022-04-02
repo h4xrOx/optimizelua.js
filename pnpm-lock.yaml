@@ -831,7 +831,7 @@ packages:
     requiresBuild: true
     dependencies:
       node-addon-api: 3.2.1
-      node-gyp-build: 4.3.0
+      node-gyp-build: 4.4.0
     dev: true
 
   /@parcel/workers/2.4.1_@parcel+core@2.4.1:
@@ -1204,7 +1204,7 @@ packages:
     dependencies:
       msgpackr: 1.5.5
       nan: 2.15.0
-      node-gyp-build: 4.3.0
+      node-gyp-build: 4.4.0
       ordered-binary: 1.2.4
       weak-lru-cache: 1.2.2
     dev: true
@@ -1218,7 +1218,7 @@ packages:
     requiresBuild: true
     dependencies:
       nan: 2.15.0
-      node-gyp-build: 4.3.0
+      node-gyp-build: 4.4.0
     dev: true
     optional: true
 
@@ -1236,8 +1236,8 @@ packages:
     resolution: {integrity: sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==}
     dev: true
 
-  /node-gyp-build/4.3.0:
-    resolution: {integrity: sha512-iWjXZvmboq0ja1pUGULQBexmxq8CV4xBhX7VDOTbL7ZR4FOowwY/VOtRxBN/yKxmdGoIp4j5ysNT4u3S2pDQ3Q==}
+  /node-gyp-build/4.4.0:
+    resolution: {integrity: sha512-amJnQCcgtRVw9SvoebO3BKGESClrfXGCUTX9hSn1OuGQTQBOZmVd0Z0OlecpuRksKvbsUqALE8jls/ErClAPuQ==}
     hasBin: true
     dev: true
 
