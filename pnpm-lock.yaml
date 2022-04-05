@@ -374,7 +374,7 @@ packages:
     engines: {node: '>= 12.0.0', parcel: ^2.4.1}
     dependencies:
       '@parcel/plugin': 2.4.1_@parcel+core@2.4.1
-      htmlnano: 2.0.0_svgo@2.8.0
+      htmlnano: 2.0.1_svgo@2.8.0
       nullthrows: 1.1.1
       posthtml: 0.16.6
       svgo: 2.8.0
@@ -905,7 +905,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001324
+      caniuse-lite: 1.0.30001325
       electron-to-chromium: 1.4.103
       escalade: 3.1.1
       node-releases: 2.0.2
@@ -921,8 +921,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite/1.0.30001324:
-    resolution: {integrity: sha512-/eYp1J6zYh1alySQB4uzYFkLmxxI8tk0kxldbNHXp8+v+rdMKdUBNjRLz7T7fz6Iox+1lIdYpc7rq6ZcXfTukg==}
+  /caniuse-lite/1.0.30001325:
+    resolution: {integrity: sha512-sB1bZHjseSjDtijV1Hb7PB2Zd58Kyx+n/9EotvZ4Qcz2K3d0lWB8dB4nb8wN/TsOGFq3UuAm0zQZNQ4SoR7TrQ==}
     dev: true
 
   /chalk/2.4.2:
@@ -1116,8 +1116,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /htmlnano/2.0.0_svgo@2.8.0:
-    resolution: {integrity: sha512-thKQfhcp2xgtsWNE27A2bliEeqVL5xjAgGn0wajyttvFFsvFWWah1ntV9aEX61gz0T6MBQ5xK/1lXuEumhJTcg==}
+  /htmlnano/2.0.1_svgo@2.8.0:
+    resolution: {integrity: sha512-SIe/X2W5/9hmB4sFSw4HxQEMR1ERq+GXvasJQiatjKWEv6QCuvNHfPqeW8DRNtuGHOPlsfuFz0SbAStv63ZMvw==}
     peerDependencies:
       cssnano: ^5.0.11
       postcss: ^8.3.11
