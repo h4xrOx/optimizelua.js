@@ -176,7 +176,7 @@ packages:
       dotenv-expand: 5.1.0
       json-source-map: 0.6.1
       json5: 2.2.1
-      msgpackr: 1.5.5
+      msgpackr: 1.5.6
       nullthrows: 1.1.1
       semver: 5.7.1
     dev: true
@@ -906,7 +906,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001332
-      electron-to-chromium: 1.4.110
+      electron-to-chromium: 1.4.112
       escalade: 3.1.1
       node-releases: 2.0.3
       picocolors: 1.0.0
@@ -1065,8 +1065,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /electron-to-chromium/1.4.110:
-    resolution: {integrity: sha512-TvHZrkj9anfWkxgblHlNr4IMQdm2N6D0o8Wu1BDpSL/RKT4DHyUt/tvDFtApgZ+LGFL3U9EO4LRZ1eSlQ8xMYA==}
+  /electron-to-chromium/1.4.112:
+    resolution: {integrity: sha512-BN5xdtPMlqUHo74daNNp/PwAGs4homs2RFxTB668wwkv7HAMvOY4L16Y5QrFxh69T2H2f1xWg8zQfrCDnpkvrA==}
     dev: true
 
   /entities/2.2.0:
@@ -1202,7 +1202,7 @@ packages:
     resolution: {integrity: sha512-gto+BB2uEob8qRiTlOq+R3uX0YNHsX9mjxj9Sbdue/LIKqu6IlZjrsjKeGyOMquc/474GEqFyX2pdytpydp0rQ==}
     requiresBuild: true
     dependencies:
-      msgpackr: 1.5.5
+      msgpackr: 1.5.6
       nan: 2.15.0
       node-gyp-build: 4.4.0
       ordered-binary: 1.2.5
@@ -1276,8 +1276,8 @@ packages:
     dev: true
     optional: true
 
-  /msgpackr/1.5.5:
-    resolution: {integrity: sha512-JG0V47xRIQ9pyUnx6Hb4+3TrQoia2nA3UIdmyTldhxaxtKFkekkKpUW/N6fwHwod9o4BGuJGtouxOk+yCP5PEA==}
+  /msgpackr/1.5.6:
+    resolution: {integrity: sha512-Y1Ia1AYKcz30JOAUyyC0jCicI7SeP8NK+SVCGZIeLg2oQs28wSwW2GbHXktk4ZZmrq9/v2jU0JAbvbp2d1ewpg==}
     optionalDependencies:
       msgpackr-extract: 1.1.4
     dev: true
