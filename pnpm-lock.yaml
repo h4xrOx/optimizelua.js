@@ -170,7 +170,7 @@ packages:
       '@parcel/workers': 2.4.1_@parcel+core@2.4.1
       abortcontroller-polyfill: 1.7.3
       base-x: 3.0.9
-      browserslist: 4.20.2
+      browserslist: 4.20.3
       clone: 2.1.2
       dotenv: 7.0.0
       dotenv-expand: 5.1.0
@@ -363,7 +363,7 @@ packages:
       '@parcel/plugin': 2.4.1_@parcel+core@2.4.1
       '@parcel/source-map': 2.0.2
       '@parcel/utils': 2.4.1
-      browserslist: 4.20.2
+      browserslist: 4.20.3
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - '@parcel/core'
@@ -614,7 +614,7 @@ packages:
       '@parcel/plugin': 2.4.1_@parcel+core@2.4.1
       '@parcel/source-map': 2.0.2
       '@parcel/utils': 2.4.1
-      browserslist: 4.20.2
+      browserslist: 4.20.3
       json5: 2.2.1
       nullthrows: 1.1.1
       semver: 5.7.1
@@ -631,7 +631,7 @@ packages:
       '@parcel/plugin': 2.4.1_@parcel+core@2.4.1
       '@parcel/source-map': 2.0.2
       '@parcel/utils': 2.4.1
-      browserslist: 4.20.2
+      browserslist: 4.20.3
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - '@parcel/core'
@@ -674,7 +674,7 @@ packages:
       '@parcel/utils': 2.4.1
       '@parcel/workers': 2.4.1_@parcel+core@2.4.1
       '@swc/helpers': 0.3.8
-      browserslist: 4.20.2
+      browserslist: 4.20.3
       detect-libc: 1.0.3
       nullthrows: 1.1.1
       regenerator-runtime: 0.13.9
@@ -900,13 +900,13 @@ packages:
     resolution: {integrity: sha1-aN/1++YMUes3cl6p4+0xDcwed24=}
     dev: true
 
-  /browserslist/4.20.2:
-    resolution: {integrity: sha512-CQOBCqp/9pDvDbx3xfMi+86pr4KXIf2FDkTTdeuYw8OxS9t898LA1Khq57gtufFILXpfgsSx5woNgsBgvGjpsA==}
+  /browserslist/4.20.3:
+    resolution: {integrity: sha512-NBhymBQl1zM0Y5dQT/O+xiLP9/rzOIQdKM/eMJBAq7yBgaB6krIYLGejrwVYnSHZdqjscB1SPuAjHwxjvN6Wdg==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001332
-      electron-to-chromium: 1.4.118
+      electron-to-chromium: 1.4.120
       escalade: 3.1.1
       node-releases: 2.0.3
       picocolors: 1.0.0
@@ -1065,8 +1065,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /electron-to-chromium/1.4.118:
-    resolution: {integrity: sha512-maZIKjnYDvF7Fs35nvVcyr44UcKNwybr93Oba2n3HkKDFAtk0svERkLN/HyczJDS3Fo4wU9th9fUQd09ZLtj1w==}
+  /electron-to-chromium/1.4.120:
+    resolution: {integrity: sha512-H3ksXiGhoYVQCmoMT0JMN07kEDBzc6TSv1OSp7UUPxNiSvQl7NeQCyZiMZhLEmNJ89C5FnD4Eoe1ytZnMQxxaw==}
     dev: true
 
   /entities/2.2.0:
