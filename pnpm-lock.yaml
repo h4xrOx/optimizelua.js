@@ -423,7 +423,7 @@ packages:
       '@parcel/source-map': 2.0.2
       '@parcel/utils': 2.4.1
       nullthrows: 1.1.1
-      terser: 5.13.0
+      terser: 5.13.1
     transitivePeerDependencies:
       - '@parcel/core'
     dev: true
@@ -906,7 +906,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001334
-      electron-to-chromium: 1.4.125
+      electron-to-chromium: 1.4.128
       escalade: 3.1.1
       node-releases: 2.0.4
       picocolors: 1.0.0
@@ -1065,8 +1065,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /electron-to-chromium/1.4.125:
-    resolution: {integrity: sha512-1lQM6s0FnAKt9LCfL05S8wnuAhVMemi7zCFWnTZ0vu7jR1a0RD8ML1gRBsyeEp6MRU+zNbgyaKcjyU1aPIpJYA==}
+  /electron-to-chromium/1.4.128:
+    resolution: {integrity: sha512-DT8G+2drgywCWN+74jbYJ7yXbdec9wefs+K8C0Tu2Hbhj7K0nod17Iq8hoS21MpuYYrL6oXu2Kd636KmzXVugQ==}
     dev: true
 
   /entities/2.2.0:
@@ -1495,8 +1495,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /terser/5.13.0:
-    resolution: {integrity: sha512-sgQ99P+fRBM1jAYzN9RTnD/xEWx/7LZgYTCRgmYriSq1wxxqiQPJgXkkLBBuwySDWJ2PP0PnVQyuf4xLUuH4Ng==}
+  /terser/5.13.1:
+    resolution: {integrity: sha512-hn4WKOfwnwbYfe48NgrQjqNOH9jzLqRcIfbYytOXCOv46LBfWr9bDS17MQqOi+BWGD0sJK3Sj5NC/gJjiojaoA==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
