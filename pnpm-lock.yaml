@@ -673,7 +673,7 @@ packages:
       '@parcel/source-map': 2.0.2
       '@parcel/utils': 2.4.1
       '@parcel/workers': 2.4.1_@parcel+core@2.4.1
-      '@swc/helpers': 0.3.10
+      '@swc/helpers': 0.3.13
       browserslist: 4.20.3
       detect-libc: 1.0.3
       nullthrows: 1.1.1
@@ -849,8 +849,10 @@ packages:
       nullthrows: 1.1.1
     dev: true
 
-  /@swc/helpers/0.3.10:
-    resolution: {integrity: sha512-ZCioFJz6NcLAA4zQqN6BORE/SFu2tBdwRU3JXQgLBu6JETvFElAOpaP0HYjWpbnCHFEJ5o6c4wWT8QeLbRoe2w==}
+  /@swc/helpers/0.3.13:
+    resolution: {integrity: sha512-A1wswJhnqaLRn8uYVQ8YiNTtY5i/JIPmV08EXXjjTresIkUVUEUaFv/wXVhGXfRNYMvHPkuoMR1Nb6NgpxGjNg==}
+    dependencies:
+      tslib: 2.4.0
     dev: true
 
   /@trysound/sax/0.2.0:
@@ -906,7 +908,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001335
-      electron-to-chromium: 1.4.130
+      electron-to-chromium: 1.4.133
       escalade: 3.1.1
       node-releases: 2.0.4
       picocolors: 1.0.0
@@ -1065,8 +1067,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /electron-to-chromium/1.4.130:
-    resolution: {integrity: sha512-Xmht+yS42G0QAzLBYFTuCYofQ3NGUBENPyW9hi8PxrVm3E76AVVdFNl3xxTJ8/N2L8XEUb29hOEMGh/GFnZHrA==}
+  /electron-to-chromium/1.4.133:
+    resolution: {integrity: sha512-ZiIO/VXWqY9WME7vztTySSqwm4+A8o66upAb4AmxPwOLejUM8dffcDKY+Hj6oBq/1de7w75n4GxYFxF52ewnUQ==}
     dev: true
 
   /entities/2.2.0:
@@ -1514,6 +1516,10 @@ packages:
     resolution: {integrity: sha1-qLE/1r/SSJUZZ0zN5VujaTtwbQk=}
     dependencies:
       punycode: 2.1.1
+    dev: true
+
+  /tslib/2.4.0:
+    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: true
 
   /type-fest/0.20.2:
