@@ -656,18 +656,22 @@ packages:
   /@parcel/transformer-image/2.4.1_@parcel+core@2.4.1:
     resolution: {integrity: sha512-pOfgPVe13lMTKdzydjXXNl4bojVMmuQmwm44OZ9cmpwOD3phkZzCtrxgySoV1eRBCOipdQg1O6GGI3za1KNdvw==}
     engines: {node: '>= 12.0.0', parcel: ^2.4.1}
+    peerDependencies:
+      '@parcel/core': '*'
     dependencies:
+      '@parcel/core': 2.4.1
       '@parcel/plugin': 2.4.1_@parcel+core@2.4.1
       '@parcel/workers': 2.4.1_@parcel+core@2.4.1
       nullthrows: 1.1.1
-    transitivePeerDependencies:
-      - '@parcel/core'
     dev: true
 
   /@parcel/transformer-js/2.4.1_@parcel+core@2.4.1:
     resolution: {integrity: sha512-39Y9RUuDk5dc09Z3Pgj8snQd5E8926IqOowdTLKNJr7EcmkwHdinbpI4EqgKnisOwX4NSzxUti1I2DHsP1QZHw==}
     engines: {node: '>= 12.0.0', parcel: ^2.4.1}
+    peerDependencies:
+      '@parcel/core': '*'
     dependencies:
+      '@parcel/core': 2.4.1
       '@parcel/diagnostic': 2.4.1
       '@parcel/plugin': 2.4.1_@parcel+core@2.4.1
       '@parcel/source-map': 2.0.2
@@ -679,8 +683,6 @@ packages:
       nullthrows: 1.1.1
       regenerator-runtime: 0.13.9
       semver: 5.7.1
-    transitivePeerDependencies:
-      - '@parcel/core'
     dev: true
 
   /@parcel/transformer-json/2.4.1_@parcel+core@2.4.1:
@@ -908,7 +910,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001338
-      electron-to-chromium: 1.4.136
+      electron-to-chromium: 1.4.137
       escalade: 3.1.1
       node-releases: 2.0.4
       picocolors: 1.0.0
@@ -1067,8 +1069,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /electron-to-chromium/1.4.136:
-    resolution: {integrity: sha512-GnITX8rHnUrIVnTxU9UlsTnSemHUA2iF+6QrRqxFbp/mf0vfuSc/goEyyQhUX3TUUCE3mv/4BNuXOtaJ4ur0eA==}
+  /electron-to-chromium/1.4.137:
+    resolution: {integrity: sha512-0Rcpald12O11BUogJagX3HsCN3FE83DSqWjgXoHo5a72KUKMSfI39XBgJpgNNxS9fuGzytaFjE06kZkiVFy2qA==}
     dev: true
 
   /entities/2.2.0:
@@ -1329,6 +1331,9 @@ packages:
     resolution: {integrity: sha512-H8n7cJ0rOt0AZZLuPuG6hvujUWiWz8kxx4pkqEDm31dijrbKb0pNgccXOllQ34em6r7elv6yH7lxox8jDCp0hw==}
     engines: {node: '>= 12.0.0'}
     hasBin: true
+    peerDependenciesMeta:
+      '@parcel/core':
+        optional: true
     dependencies:
       '@parcel/config-default': 2.4.1_@parcel+core@2.4.1
       '@parcel/core': 2.4.1
