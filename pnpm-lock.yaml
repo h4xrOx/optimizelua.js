@@ -224,7 +224,7 @@ packages:
       dotenv-expand: 5.1.0
       json-source-map: 0.6.1
       json5: 2.2.1
-      msgpackr: 1.6.0
+      msgpackr: 1.6.1
       nullthrows: 1.1.1
       semver: 5.7.1
     dev: true
@@ -725,7 +725,7 @@ packages:
       '@parcel/source-map': 2.0.5
       '@parcel/utils': 2.4.1
       '@parcel/workers': 2.4.1_@parcel+core@2.4.1
-      '@swc/helpers': 0.3.14
+      '@swc/helpers': 0.3.15
       browserslist: 4.20.3
       detect-libc: 1.0.3
       nullthrows: 1.1.1
@@ -899,8 +899,8 @@ packages:
       nullthrows: 1.1.1
     dev: true
 
-  /@swc/helpers/0.3.14:
-    resolution: {integrity: sha512-Iwzq9Ywkpb9nZ7d4dFbV1DxwpKUIXC1PG+5ZsTUpuUIo/ZEEZSzdyf3Wq42VveCNpeG/rA8FW1/rLIOrILFTmw==}
+  /@swc/helpers/0.3.15:
+    resolution: {integrity: sha512-rpZHDdzwhfe06gF98SUAi7TfI344zKb1Pd2D9gxUMTNnhMobDHrv2UiVVcbDXmkx84U5AaXJmBrmfT9g1TPasQ==}
     dependencies:
       tslib: 2.4.0
     dev: true
@@ -960,7 +960,7 @@ packages:
       caniuse-lite: 1.0.30001342
       electron-to-chromium: 1.4.137
       escalade: 3.1.1
-      node-releases: 2.0.4
+      node-releases: 2.0.5
       picocolors: 1.0.0
     dev: true
 
@@ -1254,7 +1254,7 @@ packages:
     resolution: {integrity: sha512-gto+BB2uEob8qRiTlOq+R3uX0YNHsX9mjxj9Sbdue/LIKqu6IlZjrsjKeGyOMquc/474GEqFyX2pdytpydp0rQ==}
     requiresBuild: true
     dependencies:
-      msgpackr: 1.6.0
+      msgpackr: 1.6.1
       nan: 2.15.0
       node-gyp-build: 4.4.0
       ordered-binary: 1.2.5
@@ -1284,8 +1284,8 @@ packages:
     dev: true
     optional: true
 
-  /msgpackr/1.6.0:
-    resolution: {integrity: sha512-CJs2OuaIuwpP2iLZx6vl/jfl7WqFNFrYpkp/BC1ctzCbYAACyT9lYMACstgvH4pTcBrCFk4uzOoOZj0gFP/0EA==}
+  /msgpackr/1.6.1:
+    resolution: {integrity: sha512-Je+xBEfdjtvA4bKaOv8iRhjC8qX2oJwpYH4f7JrG4uMVJVmnmkAT4pjKdbztKprGj3iwjcxPzb5umVZ02Qq3tA==}
     optionalDependencies:
       msgpackr-extract: 2.0.2
     dev: true
@@ -1309,8 +1309,8 @@ packages:
     hasBin: true
     dev: true
 
-  /node-releases/2.0.4:
-    resolution: {integrity: sha512-gbMzqQtTtDz/00jQzZ21PQzdI9PyLYqUSvD0p3naOhX4odFji0ZxYdnVwPTxmSwkmxhcFImpozceidSG+AgoPQ==}
+  /node-releases/2.0.5:
+    resolution: {integrity: sha512-U9h1NLROZTq9uE1SNffn6WuPDg8icmi3ns4rEl/oTfIle4iLjTliCzgTsbaIFMq/Xn078/lfY/BL0GWZ+psK4Q==}
     dev: true
 
   /nth-check/2.1.1:
