@@ -255,7 +255,7 @@ packages:
       '@parcel/workers': 2.4.1_@parcel+core@2.4.1
       abortcontroller-polyfill: 1.7.3
       base-x: 3.0.9
-      browserslist: 4.20.3
+      browserslist: 4.20.4
       clone: 2.1.2
       dotenv: 7.0.0
       dotenv-expand: 5.1.0
@@ -448,7 +448,7 @@ packages:
       '@parcel/plugin': 2.4.1_@parcel+core@2.4.1
       '@parcel/source-map': 2.0.5
       '@parcel/utils': 2.4.1
-      browserslist: 4.20.3
+      browserslist: 4.20.4
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - '@parcel/core'
@@ -699,7 +699,7 @@ packages:
       '@parcel/plugin': 2.4.1_@parcel+core@2.4.1
       '@parcel/source-map': 2.0.5
       '@parcel/utils': 2.4.1
-      browserslist: 4.20.3
+      browserslist: 4.20.4
       json5: 2.2.1
       nullthrows: 1.1.1
       semver: 5.7.1
@@ -716,7 +716,7 @@ packages:
       '@parcel/plugin': 2.4.1_@parcel+core@2.4.1
       '@parcel/source-map': 2.0.5
       '@parcel/utils': 2.4.1
-      browserslist: 4.20.3
+      browserslist: 4.20.4
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - '@parcel/core'
@@ -763,7 +763,7 @@ packages:
       '@parcel/utils': 2.4.1
       '@parcel/workers': 2.4.1_@parcel+core@2.4.1
       '@swc/helpers': 0.3.17
-      browserslist: 4.20.3
+      browserslist: 4.20.4
       detect-libc: 1.0.3
       nullthrows: 1.1.1
       regenerator-runtime: 0.13.9
@@ -989,13 +989,13 @@ packages:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
     dev: true
 
-  /browserslist/4.20.3:
-    resolution: {integrity: sha512-NBhymBQl1zM0Y5dQT/O+xiLP9/rzOIQdKM/eMJBAq7yBgaB6krIYLGejrwVYnSHZdqjscB1SPuAjHwxjvN6Wdg==}
+  /browserslist/4.20.4:
+    resolution: {integrity: sha512-ok1d+1WpnU24XYN7oC3QWgTyMhY/avPJ/r9T00xxvUOIparA/gc+UPUMaod3i+G6s+nI2nUb9xZ5k794uIwShw==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001346
-      electron-to-chromium: 1.4.147
+      caniuse-lite: 1.0.30001349
+      electron-to-chromium: 1.4.148
       escalade: 3.1.1
       node-releases: 2.0.5
       picocolors: 1.0.0
@@ -1010,8 +1010,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite/1.0.30001346:
-    resolution: {integrity: sha512-q6ibZUO2t88QCIPayP/euuDREq+aMAxFE5S70PkrLh0iTDj/zEhgvJRKC2+CvXY6EWc6oQwUR48lL5vCW6jiXQ==}
+  /caniuse-lite/1.0.30001349:
+    resolution: {integrity: sha512-VFaWW3jeo6DLU5rwdiasosxhYSduJgSGil4cSyX3/85fbctlE58pXAkWyuRmVA0r2RxsOSVYUTZcySJ8WpbTxw==}
     dev: true
 
   /chalk/2.4.2:
@@ -1154,8 +1154,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /electron-to-chromium/1.4.147:
-    resolution: {integrity: sha512-czclPqxLMPqPMkahKcske4TaS5lcznsc26ByBlEFDU8grTBVK9C5W6K9I6oEEhm4Ai4jTihGnys90xY1yjXcRg==}
+  /electron-to-chromium/1.4.148:
+    resolution: {integrity: sha512-8MJk1bcQUAYkuvCyWZxaldiwoDG0E0AMzBGA6cv3WfuvJySiPgfidEPBFCRRH3cZm6SVZwo/oRlK1ehi1QNEIQ==}
     dev: true
 
   /entities/2.2.0:
